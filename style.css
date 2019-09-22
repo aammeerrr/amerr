@@ -1,0 +1,85 @@
+.mag {
+    font-size: 75px;
+    color: green;
+}
+.news {
+    font-size: 75px;
+    color: black;
+}
+.bordertext {
+    
+    
+    opacity: 0.5;
+    margin-top: 50px;
+    
+    font-size: 30px;
+}
+
+.rod_div {
+ 
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    margin: 50px;
+}
+.menu-item {
+
+    margin-right: 50px;
+}
+.nocapstext {
+    color: gray;
+    opacity: 0.7;
+    font-size: 30px
+}
+.capstext {
+    color: black;
+    font-size: 40px;
+}
+
+
+   
+
+
+
+.classinput {
+    font-size: 20px;
+    padding-left: 12px;
+    width: 200px; 
+    height: 50px; 
+    border-radius: 35px; 
+    border-color: rgb(221, 213, 213);
+}
+.mine {
+    display: flex;
+    justify-content:  center;
+    min-width:100%;
+    flex-flow: row wrap;
+    
+    
+}
+.container {
+    width: 1500px;
+
+}
+.border_line {
+
+    border-bottom: 1px antiquewhite outset;
+}
+.trending {
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-between;
+   
+}
+
+.image {
+    display: flex;
+    align-items: flex-start;
+    flex-flow: row wrap;
+}
+.sep_images {
+    width: 50%;
+
+}
+.sep_images img {
+    max-width: 100%;
+}
