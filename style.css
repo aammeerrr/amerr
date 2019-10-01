@@ -1,85 +1,209 @@
-.mag {
-    font-size: 75px;
-    color: green;
-}
-.news {
-    font-size: 75px;
-    color: black;
-}
-.bordertext {
-    
-    
-    opacity: 0.5;
-    margin-top: 50px;
-    
-    font-size: 30px;
-}
-
-.rod_div {
- 
-    justify-content: space-between;
-    flex-flow: row nowrap;
-    margin: 50px;
-}
-.menu-item {
-
-    margin-right: 50px;
-}
-.nocapstext {
-    color: gray;
-    opacity: 0.7;
-    font-size: 30px
-}
-.capstext {
-    color: black;
-    font-size: 40px;
+.body {
+    background-image: url(<img height="128" class="im_gift" src="https://vk.com/sticker/1-9042-128">)
 }
 
 
-   
-
-
-
-.classinput {
-    font-size: 20px;
-    padding-left: 12px;
-    width: 200px; 
-    height: 50px; 
-    border-radius: 35px; 
-    border-color: rgb(221, 213, 213);
-}
-.mine {
+.body_margin {
+    margin: 0px;
     display: flex;
-    justify-content:  center;
-    min-width:100%;
     flex-flow: row wrap;
-    
-    
+
+}
+.background {
+    display: flex;
+    background-color: #009098;
+    width: 100%;
+    height: 150px;
+
+}
+.main {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-flow: row wrap;
 }
 .container {
-    width: 1500px;
-
-}
-.border_line {
-
-    border-bottom: 1px antiquewhite outset;
-}
-.trending {
+    width: 1600px;
     display: flex;
-    margin-top: 80px;
+    flex-flow: row nowrap;
+
+}
+.menu_item {
+    display: flex;
+    padding: 0.9rem;
+    margin: 0.9rem;
+    color: #fff;
+    background: #1b2130;
+}
+.menu_items {
+    display: flex; 
+    box-sizing: border-box;
     justify-content: space-between;
-   
+    align-items: center;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    
 }
-
-.image {
+.header_title {
     display: flex;
-    align-items: flex-start;
+    color: #fff;
+    font-size: 3rem;
+    padding: 1rem;
+    background: #1b2130;
+    transform: translateY(88%);
+    align-items: center;
+    height: 70px;
+    align-items: center;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    
+}   
+.helper_offset { 
+    margin-top: 7rem;
+
+}
+.comn {
+    width: 100%;
+    height: 450px;
+    border: #009098 solid 2px;
+    background-image: url(https://cdn.discordapp.com/attachments/622177785569607681/625416872367620099/girl1.png);
+    background-repeat: no-repeat;
+    background-position-x: -17%;
+    background-position-y: 100%;
+    
+}
+.text_comn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30%;
+    padding-right: 5%;
+    height: 100%;
+    
+
+
+}
+.lmaooo {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+   
+  
+}
+.cont1 {
+    widows: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+  
+}
+img {
+    display: flex;
+    border: #009098 solid 2px;
+}
+.cont2 {
+    /* display: flex; */
+    /* justify-content:center; */
+    border: solid #009098  2px;
+    width: 50%;
+ 
+    padding: 1rem;
+    position: relative;
+    
+
+}
+.cont3 {
+    
+    width: 50%;
+    height: 250px;
+    border: solid #009098 2px;
+    margin-left: 90px;
+    background-color: #009098;
+    position: relative;
+    padding: 1rem;
+}
+.feautered {
+    display: inline-flex;
+    font-size: 40px;
+    background: #1b2130;
+    color: #fff;
+    padding: 20px;
+    
+    transform: translateY(-100%);
+    position: absolute;
+    top:0;
+}
+.cont2_text {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+
+}
+.bottom_image {
+    display: flex;
+    align-items: flex-end;
+    
+    
+}
+.LOL {
+    margin-top: 3rem;
+    width: 124px;
+    display: inline-flex;
+    margin-right: 1rem;
+
+   
+
+}
+.text_ahed {
+    display: inline-flex;
+
+}
+.ololoshka {
+    display: flex;
+    align-items: center;
     flex-flow: row wrap;
 }
-.sep_images {
-    width: 50%;
 
+.lol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
-.sep_images img {
-    max-width: 100%;
+.cont3_4 {
+    width: 50%;
+    display: flex;
+    flex-flow: column;
+}
+.cont3 {
+    width: 100%;
+}
+.lmao_offset {
+    background-image: url(https://sun9-22.userapi.com/c851416/v851416266/1cabcf/2r6PeEKYLZg.jpg);
+    background-repeat: no-repeat;
+
+    
+}
+.text_offset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 300px;
+    flex-flow: row wrap;
+    padding-top: 100px;
+}
+    
+.main_lol {
+    padding-bottom: 100px;
+}
+.haha {
+    border: solid #009098 2px;
+    background-color: #009098;
+    width: 100%;
+    height: 150px;;
+    
+    
 }
